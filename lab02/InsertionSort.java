@@ -7,6 +7,7 @@ public class InsertionSort{
 	System.out.print("Please enter number of elements in array: ");
 	int N = input.nextInt();
 	int[] arr = new int[N];
+	//input loop
 	for (int i=0; i<N; i++){
 	    System.out.print("Please enter element " + (i+1) + " of array: ");
 	    arr[i] = input.nextInt();
