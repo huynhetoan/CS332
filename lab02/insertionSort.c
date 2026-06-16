@@ -1,6 +1,7 @@
-// To compile use: gcc -o insertionSort insertionSort.c
-// To execute use: ./insertionSort
-
+/* Ethan Huynh
+To compile use: gcc -o insertionSort insertionSort.c
+To execute use: ./insertionSort
+*/
 #include <stdio.h>
 
 int main() {
