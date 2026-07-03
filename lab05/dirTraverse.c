@@ -1,0 +1,1 @@
+./dirTraverse <directory>
