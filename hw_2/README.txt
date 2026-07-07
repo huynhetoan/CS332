@@ -1,8 +1,10 @@
 Ethan Huynh (BlazerID - ethuynh)
 CS 332 - HomeWork_02
 
-Compile program: gcc -Wall -o hw2 hw2.c
-Execute program: ./hw2
+Compile program: "make" or  
+                  gcc -Wall -o search search.c
 
-Input:
-Output:
+Execute program: "make run" or
+                 ./search
+Output: With no arguments, it list all files in the current directory where the program is executed.
+        "./search projects" list all files in the directory ../programs (relative to the current directory)
