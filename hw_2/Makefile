@@ -1,10 +1,14 @@
 FILE = search
+#file name^
 
 build: $(FILE).c
-    gcc -Wall $(FILE).c -o $(FILE)
+	gcc -Wall -g $(FILE).c -o $(FILE) 
+
+
+.PHONY: db
+
+db:
+	gdb -tui $(FILE)
 
 run:
-    ./$(FILE)
-
-clean:
-    rm -f $(FILE)
+	./$(FILE)
