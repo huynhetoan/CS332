@@ -1,5 +1,6 @@
 Ethan Huynh (BlazerID: ethuynh)
 CS 332 – Homework 02
+github link "https://github.com/huynhetoan/CS332/tree/main/hw_2"
 
 Compile:
     make
