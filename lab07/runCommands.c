@@ -107,13 +107,15 @@ int main(int argc, char *argv[]) {
                     ctime(&end));
         }
         else {
-            perror("fork");
+            perror("fork"); //fork failed
             exit(1);
         }
 
+        //free allocated memory
         free(cmd);
     }
 
+    //close files
     fclose(in);
     fclose(log);
 
