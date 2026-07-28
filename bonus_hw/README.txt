@@ -9,4 +9,4 @@ or
 Run:
     make run
 or
-    ./bonusHW input.txt > average.txt
+    ./bonusHW
