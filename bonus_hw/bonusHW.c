@@ -32,16 +32,6 @@ To execute: "make run" or
 // pipefd[0] = read end
 // pipefd[1] = write end
 
-// Constants
-#define NUM_PRODUCERS      10
-#define NUM_CONSUMERS      20
-#define NUM_PER_PRODUCER   500 // each producer generates 500 numbers
-#define NUM_PER_CONSUMER   250 // each consumer reads 250 numbers
-#define RAND_MAX_VALUE     1000 // numbers between 0 and 1000
-
-// Total numbers: 10 * 500 = 5000
-// Consumers: 20 * 250 = 5000
-
 // Global pipe file descriptors
 int pipefd[2];
 
